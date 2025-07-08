@@ -1,0 +1,101 @@
+/*Student name : Pallavi Mishra
+Student number : 301294886 */
+
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #F9F3EC;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    background-color:  #4EA1AE;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    font-family: cursive;
+}
+
+.header-buttons {
+    margin-top: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    background-color: #29ae4d;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #22d93e;
+}
+
+#score-section {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#scoreLabel {
+    display: inline-block;
+    color: #e7db2c;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#backImage {
+    background-image: url("images/background.png");
+    height: 600px;
+    width: 100%;
+    background-repeat: repeat;
+    margin-top: 20px;
+}
+
+#ant {
+    left: 5%;
+    top: 20%;
+    position: relative;
+    cursor: crosshair;
+}
+
+footer {
+    overflow: hidden;
+    background-color: #4EA1AE;
+    padding: 10px;
+    color: white;
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    background-color: #c92530;
+    color: #FFFFFF;
+}
